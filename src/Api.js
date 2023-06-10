@@ -23,7 +23,7 @@ const MyComponent = () => {
       {data ? (
         <ul>
           {data.map(item => (
-            <li key={item.id}>{item.name}</li>
+            <li key={item.song}>{item.image}{item.label}{item.url}</li>
           ))}
         </ul>
       ) : (
