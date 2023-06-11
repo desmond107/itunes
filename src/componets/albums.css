@@ -1,0 +1,61 @@
+.album {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9vh;
+    border-radius: 2rem;
+}
+
+.album:hover a {
+    text-decoration: underline;
+}
+
+.album:hover .price {
+    border: 1px solid #FF004F;
+}
+
+
+
+.album-item {
+    margin-top: .3rem;
+
+}
+
+
+.img {
+    background-image: url("https: //media0.giphy.com/media/26tPcVAWvlzRQtsLS/giphy.gif?cid=ecf05e47llzky4sufauthl7nby8g1pwlvpg0h0wq0m55my63&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+    transition: all .3s;
+}
+
+
+
+.img
+:hover {
+    opacity: .9;
+}
+
+
+.album-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+
+
+
+.link {
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+}
+
+
+.price {
+    border: 1px solid white;
+    padding: .2rem;
+    box-shadow: 0 .01rem .2rem rgb(163, 162, 162);
+    border-radius: .2rem;
+}
