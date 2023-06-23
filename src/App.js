@@ -13,7 +13,7 @@ class App extends Component {
 
   componentDidMount() {
     axios
-      .get(`https://itunes.apple.com/in/rss/topalbums/limit=100/json`)
+      .get(`https://itunes.apple.com/us/rss/topalbums/limit=100/json`)
       .then(res => {
         this.setState({ posts: res.data.feed.entry });
       });

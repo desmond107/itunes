@@ -1,8 +1,9 @@
 {
-  "name": "itunes",
+  "name": "itunes-mziki",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://saigowthamr.github.io/Itunes-Top-100-albums",
+  "homepage": "https://github.com/desmond107/itunes.git",
+  "author": "Desmond Kinoti",
   "dependencies": {
     "axios": "^0.18.0",
     "moment": "^2.22.2",
