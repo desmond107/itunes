@@ -5,9 +5,9 @@ import './header.css';
 
 export default () => (
     <header className="header">
-        <a href="https://saigowthamr.github.io/Itunes-Top-100-albums/" style={{
+        <a href="https://github.com/desmond107/itunes" style={{
             textDecoration: "none",
-            color: "white", borderBottom: "1px solid red"
-        }}>Top 100 Albums from Itunes</a>
+            color: "white", borderBottom: "3px solid blue"
+        }}>Itunes Top 100 Mziki</a>
     </header>
 )
