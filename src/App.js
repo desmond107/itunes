@@ -21,7 +21,7 @@ class App extends Component {
 
   render() {
     const loadingImg = <div className="album-img">
-      <img alt="loading" src="https://media.giphy.com/media/y1ZBcOGOOtlpC/200.gif" />
+      <img alt="loading" src="https://media0.giphy.com/media/17mNCcKU1mJlrbXodo/giphy.gif?cid=ecf05e47u6mg2s52a1bg1h8u09lvbcoh93unv9ndwrfaq35k&ep=v1_gifs_related&rid=giphy.gif&ct=g" />
     </div>
 
     const albums = this.state.posts.map(e => {
